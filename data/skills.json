@@ -1,0 +1,905 @@
+[
+  {
+    "id": "skill:aws",
+    "name": "AWS",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 39
+  },
+  {
+    "id": "skill:openstack",
+    "name": "OpenStack",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 18
+  },
+  {
+    "id": "skill:upcloud",
+    "name": "UpCloud",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:rackspace",
+    "name": "Rackspace",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 15
+  },
+  {
+    "id": "skill:liquid-web",
+    "name": "Liquid Web",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:nexcess",
+    "name": "Nexcess",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:dynamodb",
+    "name": "DynamoDB",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:redshift",
+    "name": "Redshift",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:cloudfront",
+    "name": "CloudFront",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:aws-emr",
+    "name": "AWS EMR",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:s3",
+    "name": "S3",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 9
+  },
+  {
+    "id": "skill:hdfs",
+    "name": "HDFS",
+    "domain": "Cloud & Infrastructure",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:linux",
+    "name": "Linux",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 31
+  },
+  {
+    "id": "skill:red-hat",
+    "name": "Red Hat",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:rhce6",
+    "name": "RHCE6",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:centos",
+    "name": "CentOS",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:ubuntu",
+    "name": "Ubuntu",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:windows-server",
+    "name": "Windows Server",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:apache",
+    "name": "Apache",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:nginx",
+    "name": "NGINX",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:iis-net",
+    "name": "IIS/.NET",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:cpanel",
+    "name": "cPanel",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 8
+  },
+  {
+    "id": "skill:plesk",
+    "name": "Plesk",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 9
+  },
+  {
+    "id": "skill:interworx",
+    "name": "InterWorx",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:virtualmin",
+    "name": "Virtualmin",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:ssh",
+    "name": "SSH",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:ftp",
+    "name": "FTP",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:dns",
+    "name": "DNS",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 9
+  },
+  {
+    "id": "skill:tcp-ip",
+    "name": "TCP/IP",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:ssl-tls",
+    "name": "SSL/TLS",
+    "domain": "Linux & Systems",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:mysql",
+    "name": "MySQL",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 20
+  },
+  {
+    "id": "skill:mariadb",
+    "name": "MariaDB",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 7
+  },
+  {
+    "id": "skill:percona-server",
+    "name": "Percona Server",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:percona-xtradb-cluster",
+    "name": "Percona XtraDB Cluster",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:pxc",
+    "name": "PXC",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:galera",
+    "name": "Galera",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:postgresql",
+    "name": "PostgreSQL",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:mongodb",
+    "name": "MongoDB",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 14
+  },
+  {
+    "id": "skill:sqlite",
+    "name": "SQLite",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:redis",
+    "name": "Redis",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 12
+  },
+  {
+    "id": "skill:elasticsearch",
+    "name": "Elasticsearch",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 9
+  },
+  {
+    "id": "skill:haproxy",
+    "name": "HAProxy",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:varnish",
+    "name": "Varnish",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:pmm",
+    "name": "PMM",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:hiveql",
+    "name": "HiveQL",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:hadoop",
+    "name": "Hadoop",
+    "domain": "Databases & Data",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:docker",
+    "name": "Docker",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 12
+  },
+  {
+    "id": "skill:kubernetes",
+    "name": "Kubernetes",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:terraform",
+    "name": "Terraform",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:ansible",
+    "name": "Ansible",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:puppet",
+    "name": "Puppet",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:chef",
+    "name": "Chef",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:git",
+    "name": "Git",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:ci-cd",
+    "name": "CI/CD",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 7
+  },
+  {
+    "id": "skill:infrastructure-as-code",
+    "name": "Infrastructure as Code",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:iac",
+    "name": "IaC",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:cron",
+    "name": "Cron",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:wp-cli",
+    "name": "WP-CLI",
+    "domain": "DevOps & Automation",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:wordpress",
+    "name": "WordPress",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 21
+  },
+  {
+    "id": "skill:woocommerce",
+    "name": "WooCommerce",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 11
+  },
+  {
+    "id": "skill:magento",
+    "name": "Magento",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 15
+  },
+  {
+    "id": "skill:drupal",
+    "name": "Drupal",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:joomla",
+    "name": "Joomla",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:django",
+    "name": "Django",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 7
+  },
+  {
+    "id": "skill:node-js",
+    "name": "Node.js",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:php",
+    "name": "PHP",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 18
+  },
+  {
+    "id": "skill:javascript",
+    "name": "JavaScript",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:rest-apis",
+    "name": "REST APIs",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:webhooks",
+    "name": "Webhooks",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:headless-architecture",
+    "name": "Headless architecture",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:lamp",
+    "name": "LAMP",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:lemp",
+    "name": "LEMP",
+    "domain": "Web & E-commerce",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:nagios",
+    "name": "Nagios",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:datadog",
+    "name": "Datadog",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:splunk",
+    "name": "Splunk",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:prometheus",
+    "name": "Prometheus",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:grafana",
+    "name": "Grafana",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:nessus",
+    "name": "Nessus",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:metasploit",
+    "name": "Metasploit",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:wireshark",
+    "name": "Wireshark",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:mtr",
+    "name": "MTR",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:traceroute",
+    "name": "Traceroute",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:nmap",
+    "name": "Nmap",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:cloudflare",
+    "name": "Cloudflare",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:pci-dss",
+    "name": "PCI-DSS",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:owasp",
+    "name": "OWASP",
+    "domain": "Observability & Security",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:l3-support",
+    "name": "L3 Support",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:managed-applications",
+    "name": "Managed Applications",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:technical-account-management",
+    "name": "Technical Account Management",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:tam",
+    "name": "TAM",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 0
+  },
+  {
+    "id": "skill:solutions-consulting",
+    "name": "Solutions Consulting",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:technical-support",
+    "name": "Technical Support",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:pre-sales-engineering",
+    "name": "Pre-Sales Engineering",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:solution-architecture",
+    "name": "Solution Architecture",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:incident-response",
+    "name": "Incident Response",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:sla",
+    "name": "SLA",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 7
+  },
+  {
+    "id": "skill:enterprise-support",
+    "name": "Enterprise Support",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:customer-success",
+    "name": "Customer Success",
+    "domain": "Enterprise & Support",
+    "source": "index.html",
+    "mention_count": 0
+  },
+  {
+    "id": "skill:product-management",
+    "name": "Product Management",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:product-manager",
+    "name": "Product Manager",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:roadmap-planning",
+    "name": "Roadmap Planning",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:agile",
+    "name": "Agile",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:ux-ui",
+    "name": "UX/UI",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:front-end-modernization",
+    "name": "Front-End Modernization",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:technical-sales",
+    "name": "Technical Sales",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:consultative-selling",
+    "name": "Consultative Selling",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:inventory",
+    "name": "Inventory",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 7
+  },
+  {
+    "id": "skill:retail",
+    "name": "Retail",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 11
+  },
+  {
+    "id": "skill:event-operations",
+    "name": "Event Operations",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:experiential-marketing",
+    "name": "Experiential Marketing",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:visual-merchandising",
+    "name": "Visual Merchandising",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:customer-engagement",
+    "name": "Customer Engagement",
+    "domain": "Product & Business",
+    "source": "index.html",
+    "mention_count": 6
+  },
+  {
+    "id": "skill:python",
+    "name": "Python",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 12
+  },
+  {
+    "id": "skill:go",
+    "name": "Go",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:golang",
+    "name": "Golang",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:c-c",
+    "name": "C/C++",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:lua",
+    "name": "Lua",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:sql",
+    "name": "SQL",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:bash",
+    "name": "Bash",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:front-end-development",
+    "name": "Front-End Development",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:api-integrations",
+    "name": "API Integrations",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 4
+  },
+  {
+    "id": "skill:microservices",
+    "name": "Microservices",
+    "domain": "Programming & Engineering",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:aws-solutions-architect-associate",
+    "name": "AWS Solutions Architect Associate",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:rhce",
+    "name": "RHCE",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 2
+  },
+  {
+    "id": "skill:rhcsa",
+    "name": "RHCSA",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:bsba",
+    "name": "BSBA",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 5
+  },
+  {
+    "id": "skill:asba",
+    "name": "ASBA",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 3
+  },
+  {
+    "id": "skill:mba-ai-product-management",
+    "name": "MBA AI Product Management",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 1
+  },
+  {
+    "id": "skill:linux-academy",
+    "name": "Linux Academy",
+    "domain": "Credentials & Education",
+    "source": "index.html",
+    "mention_count": 3
+  }
+]

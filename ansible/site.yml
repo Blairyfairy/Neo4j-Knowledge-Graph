@@ -1,0 +1,79 @@
+---
+- name: Configure Neo4j graph ingestion runner
+  hosts: importer
+  become: true
+  vars:
+    app_dir: /opt/blair-skill-knowledge-graph
+    repo_url: "https://github.com/blairyfairy/blair-skill-knowledge-graph.git"
+    neo4j_uri: "{{ lookup('env', 'NEO4J_URI') }}"
+    neo4j_username: "{{ lookup('env', 'NEO4J_USERNAME') | default('neo4j', true) }}"
+    neo4j_password: "{{ lookup('env', 'NEO4J_PASSWORD') }}"
+    neo4j_database: "{{ lookup('env', 'NEO4J_DATABASE') | default('neo4j', true) }}"
+
+  tasks:
+    - name: Install runtime packages
+      ansible.builtin.apt:
+        name:
+          - git
+          - python3
+          - python3-venv
+          - python3-pip
+          - ca-certificates
+        state: present
+        update_cache: true
+
+    - name: Create application directory
+      ansible.builtin.file:
+        path: "{{ app_dir }}"
+        state: directory
+        owner: root
+        group: root
+        mode: "0755"
+
+    - name: Checkout graph project
+      ansible.builtin.git:
+        repo: "{{ repo_url }}"
+        dest: "{{ app_dir }}"
+        version: main
+        force: true
+
+    - name: Create virtual environment
+      ansible.builtin.command:
+        cmd: python3 -m venv {{ app_dir }}/.venv
+        creates: "{{ app_dir }}/.venv/bin/python"
+
+    - name: Install Python dependencies
+      ansible.builtin.pip:
+        requirements: "{{ app_dir }}/requirements.txt"
+        virtualenv: "{{ app_dir }}/.venv"
+
+    - name: Configure importer environment
+      ansible.builtin.template:
+        src: neo4j-importer.env.j2
+        dest: /etc/blair-neo4j-importer.env
+        owner: root
+        group: root
+        mode: "0600"
+
+    - name: Install importer systemd unit
+      ansible.builtin.copy:
+        dest: /etc/systemd/system/blair-neo4j-importer.service
+        mode: "0644"
+        content: |
+          [Unit]
+          Description=Blair Skill Knowledge Graph Neo4j Importer
+          After=network-online.target
+          Wants=network-online.target
+
+          [Service]
+          Type=oneshot
+          WorkingDirectory={{ app_dir }}
+          EnvironmentFile=/etc/blair-neo4j-importer.env
+          ExecStart={{ app_dir }}/.venv/bin/python scripts/import_neo4j.py
+
+          [Install]
+          WantedBy=multi-user.target
+
+    - name: Reload systemd
+      ansible.builtin.systemd:
+        daemon_reload: true
